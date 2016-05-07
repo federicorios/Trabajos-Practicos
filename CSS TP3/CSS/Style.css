@@ -1,0 +1,238 @@
+body{
+  background-color: white;
+  font-family: 'Wire One', arial, helvetica;
+  font-style: normal;
+  font-weight: 400;
+}
+
+div, article, section, div, header,h1,nav,aside,form,input{
+  box-sizing: border-box;
+}
+
+.hide {
+  display: none;
+}
+
+.section-container {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+
+.section-container .content {
+  max-width: 1040px;
+  padding: 0 10px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.header-container .content {
+  height: 100px;
+  padding: 30px 0;
+}
+
+.header-container .brand-logo {
+  display: inline-block;
+}
+
+.header-container .menu {
+  display: inline-block;
+  float: right;
+  font-size: 32px;
+}
+
+.header-container .menu li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 16px;
+  font-family: arial, helvetica;
+}
+
+.header-container .menu li a {
+  color: #666;
+  text-decoration: none;
+}
+
+.header-container .menu li a.active {
+  font-weight: bold;
+  color: #333;
+}
+
+.hero-container {
+  background: transparent url(https://raw.githubusercontent.com/CoderHouse/fundamentos/master/03-CSS/CODE/assets/indexbanner-bg3.jpg) center center no-repeat;
+}
+
+.hero-container .content {
+  min-height: 680px;
+  position: relative;
+}
+
+.hero-container .hero-description {
+  width: 50%;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  margin-top: -120px;
+}
+
+.hero-container .hero-description .title {
+  font-size: 80px;
+  font-weight: bold;
+}
+
+.hero-container .hero-description .text {
+  font-size: 32px;
+  font-weight: normal;
+  margin: 30px 0 0 0;
+  width: 80%;
+}
+
+.hero-container .hero-form-container {
+  width: 100%;
+  position: absolute;
+  bottom: -40px;
+  box-shadow: 0 2px 3px #eee;
+}
+
+.hero-container .hero-form-container .field-search {
+  width: 90%;
+  height: 50px;
+  border: 0;
+  padding: 40px;
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.hero-container .hero-form-container .field-submit {
+  width: 10%;
+  padding: 31px 15px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  background: #00ADF2;
+  margin: 0;
+  display: inline-block;
+  border: 0;
+}
+
+
+
+
+/*----------------------------------*/  
+
+
+
+.caja1 {height: 150px; 
+	width: 230px;
+	padding: 5px;
+	display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+	margin: 5px;
+	overflow: auto;
+	text-align: center; }
+
+
+	.section { 
+		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		width: 100%;
+		position:relative;
+		bottom: -50px;
+		text-align: center;
+		
+		
+	}
+	.caja {   position:absolute;
+		width: 1000px;
+		left: 15%;
+		margin-left: -100px;
+	}
+
+	/*----------------------------------*/  
+
+	.section2 { 
+		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		width: 100%;
+		position:relative;
+		margin-top: 250px;
+		text-align: center; 
+	}
+
+	.lista{display: inline-block; 
+		list-style: none 
+		;padding: 10px;
+		position: relative; 
+		top: -200px;
+	}
+
+	.imagen{display: inline-block;}
+
+
+	.contenedor {height: 790px; 
+		width: 1000px;
+		padding: 15px;
+		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		margin: 5px;
+		
+	}
+	
+
+	.article {  text-align: right; line-height: 20px;  }
+
+	.img {float: right; margin:10px; }
+	/*----------------------------------*/
+
+
+
+	.section4{  display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		width: 100%;
+		position:relative;
+		margin-top: 10px;
+		
+		text-align: center;
+		height: 400px;
+		background-image: url("https://raw.githubusercontent.com/CoderHouse/fundamentos/master/03-CSS/CODE/assets/pricing-bg.jpg");
+		background-position:  center;
+	}
+
+
+
+
+
+
+	/*----------------------------------*/
+
+	.section3 { 
+		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		width: 100%;
+		position:relative;
+		margin-top: 10px;
+		text-align: center; 
+		
+		margin-top: -150px; 
+	}
+
+	.contenedor3 {height: 500px; 
+		width: 1000px;
+		padding: 15px;
+		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		margin: 5px;
+		
+
+	}
+
+
+	.lista3{  width: 200px ;
+		height: 350px;
+		display: inline-block; 
+		text-align: center;
+		padding: 10px;
+		position: relative; 
+		border: black solid;
+		background: white ;
+
+		
+	}
+
+
+	article ul li{list-style-type: none; }
+            /*----------------------------------*/
