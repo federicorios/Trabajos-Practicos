@@ -147,10 +147,10 @@ div, article, section, div, header,h1,nav,aside,form,input{
 	/*----------------------------------*/  
 
 	.section2 { 
-		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
+		 /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
 		width: 100%;
-		position:relative;
-		margin-top: 250px;
+		
+		margin-top: 30px;
 		text-align: center; 
 	}
 
@@ -164,12 +164,9 @@ div, article, section, div, header,h1,nav,aside,form,input{
 	.imagen{display: inline-block;}
 
 
-	.contenedor {height: 790px; 
-		width: 1000px;
-		padding: 15px;
-		display: inline-block; /* para ajustar los elementos de bloque y no se pongan uno al lado del otro*/
-		margin: 5px;
-		
+	.contenedor {  width: 100%;
+  display: inline-block;
+  position: relative;
 	}
 	
 
